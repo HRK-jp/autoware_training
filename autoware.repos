@@ -84,22 +84,22 @@ repositories:
     url: https://github.com/MapIV/transport_drivers.git
     version: 5b007e205b60ff3e3f340804dabaccea69f6a917
   # sensor_kit
-  #sensor_kit/sample_sensor_kit_launch:##Change######################
-  sensor_kit/training_sensor_kit_launch:##Add########################
+  ##sensor_kit/sample_sensor_kit_launch:
+  sensor_kit/training_sensor_kit_launch:
     type: git
-    #url: https://github.com/tier4/training_sensor_kit_launch.git##Change######################
-    url: https://github.com/HRK-jp/training_sensor_kit_launch.git##Add######################
+    ##url: https://github.com/tier4/training_sensor_kit_launch.git
+    url: https://github.com/HRK-jp/training_sensor_kit_launch.git
     version: af0d32baab05887cdd6672f5c1714c31b05749ee
   sensor_kit/external/awsim_sensor_kit_launch: # TODO: Integrate into sample_sensor_kit_launch
     type: git
     url: https://github.com/RobotecAI/awsim_sensor_kit_launch.git
     version: c698f24a2a0b5dccc8e8b15e8628ae58bcdabb4b
   # vehicle
-  #vehicle/sample_vehicle_launch:##Change######################
-  vehicle/training_vehicle_launch:##Add########################
+  ##vehicle/sample_vehicle_launch:
+  vehicle/training_vehicle_launch:
     type: git
-    #url: https://github.com/tier4/training_vehicle_launch.git##Change######################
-    url: https://github.com/HRK-jp/training_vehicle_launch.git##Add######################
+    ##url: https://github.com/tier4/training_vehicle_launch.git
+    url: https://github.com/HRK-jp/training_vehicle_launch.git
     version: 5469d845d068624c8e1d3a9d7874cbd004076ac7
   vehicle/external/pacmod_interface:
     type: git
@@ -108,6 +108,6 @@ repositories:
   # param
   param/autoware_individual_params:
     type: git
-    #url: https://github.com/tier4/autoware_individual_params.training.git##Change######################
-    url: https://github.com/HRK-jp/autoware_individual_params.training.git##Add######################
+    ##url: https://github.com/tier4/autoware_individual_params.training.git
+    url: https://github.com/HRK-jp/autoware_individual_params.training.git
     version: bfc7e159cb040f2abcf39954ede326ecebd86749
